@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 558226a48924a944fa1e31ff23c1b106
-timeCreated: 1503541237
+timeCreated: 1503628719
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -430,10 +430,10 @@ TextureImporter:
       name: Pause Button
       rect:
         serializedVersion: 2
-        x: 539
-        y: 471
-        width: 89
-        height: 87
+        x: 542
+        y: 472
+        width: 84
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
