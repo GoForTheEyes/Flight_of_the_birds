@@ -91,6 +91,15 @@ public class MenuController : MonoBehaviour
         SceneFader.instance.FadeIn("Gameplay");
     }
 
+    public void ConnectOnGooglePlayGames()
+    {
+        LeaderboardsController.instance.ConnectOrDisconnectOnGooglePlayGames();
+    }
+
+    public void OpenLeaderboardsScoreUI()
+    {
+        LeaderboardsController.instance.OpenLeaderboardsScore();
+    }
 
 
 }

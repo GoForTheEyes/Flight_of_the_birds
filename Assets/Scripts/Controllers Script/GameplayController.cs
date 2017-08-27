@@ -84,6 +84,7 @@ public class GameplayController : MonoBehaviour {
         scoreText.gameObject.SetActive(true);
         birds[GameController.instance.GetSelectedBird()].SetActive(true);
         instructionsButton.gameObject.SetActive(false);
+        pauseButton.gameObject.SetActive(true);
         Time.timeScale = 1f;
     }
 
@@ -99,6 +100,7 @@ public class GameplayController : MonoBehaviour {
         scoreText.gameObject.SetActive(false);
         unlockedPanel.SetActive(false);
         endScore.text = score.ToString();
+        pauseButton.gameObject.SetActive(false);
         if (score > GameController.instance.GetHighscore())
         {
             GameController.instance.SetHighscore(score);
